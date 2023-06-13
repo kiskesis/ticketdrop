@@ -1,6 +1,7 @@
 {
   "name": "ticket-app",
   "version": "1.0.0",
+  "homepage": "https://kiskesis.github.io/ticketdrop",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html --public-url ./",
