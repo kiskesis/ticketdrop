@@ -14,11 +14,21 @@ import { Buffer } from "buffer"; global.Buffer = Buffer;
 // 'ed25519:GUeRZniVhEA4DRfikBoiZFZyEdzja3jo3jFLvyLeRd32'
 //'https://wallet.testnet.near.org/linkdrop/v1-4.keypom.testnet/4aJGvd5za9nTWJcZBVAgEyaaU6kymPSyoXhtJLfNNx5XA1aWSXxDAqBnrPDBcm7PT5hCwk8L3nDExBYWKoB7HEix'
 
+let basename;
+
+
+if (process.env.NODE_ENV === 'development') {
+  basename = '';
+} else {
+  basename = process.env.PUBLIC_URL;
+}
+
+console.log("process.env.PUBLIC_URL", basename)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>,
   // </React.StrictMode>

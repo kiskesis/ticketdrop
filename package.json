@@ -5,7 +5,7 @@
   "private": false,
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --public-url /ticketdrop/",
+    "build": "parcel build index.html --public-url /ticketdrop",
     "create-ticket-drop": "node utils/createTickDrop.js",
     "test-ticket-drop": "node utils/testTickDrop.js"
   },
