@@ -14,11 +14,11 @@ import { Buffer } from "buffer"; global.Buffer = Buffer;
 // 'ed25519:GUeRZniVhEA4DRfikBoiZFZyEdzja3jo3jFLvyLeRd32'
 //'https://wallet.testnet.near.org/linkdrop/v1-4.keypom.testnet/4aJGvd5za9nTWJcZBVAgEyaaU6kymPSyoXhtJLfNNx5XA1aWSXxDAqBnrPDBcm7PT5hCwk8L3nDExBYWKoB7HEix'
 
-               
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>,
   // </React.StrictMode>
