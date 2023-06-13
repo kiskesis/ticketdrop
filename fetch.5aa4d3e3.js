@@ -678,9 +678,9 @@ http.METHODS = [
 ];
 
 },{"b49e21693df4a75d":"csW06","49de19da1791af58":"47huq","3aad6f239695bc58":"93zjj","a70e96ecb83176a4":"iqSVp","3f4427dc7c925233":"7qjc7"}],"csW06":[function(require,module,exports) {
+var process = require("e97267495a723424");
 var global = arguments[3];
 var Buffer = require("3fc15f27445fbb9e").Buffer;
-var process = require("e97267495a723424");
 var capability = require("47054048ced061cc");
 var inherits = require("a0cbcf0a9cc539cc");
 var response = require("ad2a09fe8d584f99");
@@ -946,7 +946,7 @@ var unsafeHeaders = [
     "via"
 ];
 
-},{"3fc15f27445fbb9e":"fCgem","e97267495a723424":"d5jf4","47054048ced061cc":"jih7t","a0cbcf0a9cc539cc":"bRL3M","ad2a09fe8d584f99":"47huq","a35246e7294fe921":"jXNWE"}],"jih7t":[function(require,module,exports) {
+},{"e97267495a723424":"d5jf4","3fc15f27445fbb9e":"fCgem","47054048ced061cc":"jih7t","a0cbcf0a9cc539cc":"bRL3M","ad2a09fe8d584f99":"47huq","a35246e7294fe921":"jXNWE"}],"jih7t":[function(require,module,exports) {
 var global = arguments[3];
 exports.fetch = isFunction(global.fetch) && isFunction(global.ReadableStream);
 exports.writableStream = isFunction(global.WritableStream);
@@ -1172,7 +1172,7 @@ IncomingMessage.prototype._onXHRProgress = function(resetTimers) {
     }
 };
 
-},{"dfc16f766a4710a3":"fCgem","e00fbda597909aa1":"d5jf4","e9eec25daad3a5fb":"jih7t","d6679c07b5cc750d":"bRL3M","19bf775d2b636fae":"jXNWE"}],"93zjj":[function(require,module,exports) {
+},{"e00fbda597909aa1":"d5jf4","dfc16f766a4710a3":"fCgem","e9eec25daad3a5fb":"jih7t","d6679c07b5cc750d":"bRL3M","19bf775d2b636fae":"jXNWE"}],"93zjj":[function(require,module,exports) {
 module.exports = extend;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 function extend() {
