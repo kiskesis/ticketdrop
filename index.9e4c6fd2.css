@@ -153,8 +153,56 @@ input {
   }
 }
 
-body {
-  background-color: #626262;
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.success-event-div {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.success-event-div img {
+  max-height: 500px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: 20s linear infinite App-logo-spin;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  color: #fff;
+  background-color: #282c34;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

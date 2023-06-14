@@ -679,8 +679,8 @@ http.METHODS = [
 
 },{"b49e21693df4a75d":"csW06","49de19da1791af58":"47huq","3aad6f239695bc58":"93zjj","a70e96ecb83176a4":"iqSVp","3f4427dc7c925233":"7qjc7"}],"csW06":[function(require,module,exports) {
 var process = require("e97267495a723424");
-var global = arguments[3];
 var Buffer = require("3fc15f27445fbb9e").Buffer;
+var global = arguments[3];
 var capability = require("47054048ced061cc");
 var inherits = require("a0cbcf0a9cc539cc");
 var response = require("ad2a09fe8d584f99");
@@ -998,9 +998,9 @@ xhr = null // Help gc
 ;
 
 },{}],"47huq":[function(require,module,exports) {
-var process = require("e00fbda597909aa1");
 var global = arguments[3];
 var Buffer = require("dfc16f766a4710a3").Buffer;
+var process = require("e00fbda597909aa1");
 var capability = require("e9eec25daad3a5fb");
 var inherits = require("d6679c07b5cc750d");
 var stream = require("19bf775d2b636fae");
